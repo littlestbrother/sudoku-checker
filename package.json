@@ -1,7 +1,6 @@
 {
   "name": "wp-jest-temp",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -31,5 +30,14 @@
     "bootstrap": "^5.0.2",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlestbrother/sudoku-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/littlestbrother/sudoku-checker/issues"
+  },
+  "homepage": "https://github.com/littlestbrother/sudoku-checker#readme",
+  "description": ""
 }

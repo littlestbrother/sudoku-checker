@@ -1,12 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
 </head>
+
 <body>
-    <h1 class="greeting">hello world!</h1>
+    <h1 class="greeting">SUDOKU CHECKER</h1>
+    <form id="form">
+    <!-- row A 👇-->
+    <input type="number" min='1' max='9' id='a0'>
+    <input type="number" min='1' max='9' id='a1'>
+    <input type="number" min='1' max='9' id='a2'>
+    <input type="number" min='1' max='9' id='a3'>
+    <input type="number" min='1' max='9' id='a4'>
+    <input type="number" min='1' max='9' id='a5'>
+    <input type="number" min='1' max='9' id='a6'>
+    <input type="number" min='1' max='9' id='a7'>
+    <input type="number" min='1' max='9' id='a8'>
+    <!-- row A 👆 -->
+    <br>
+    <!-- row B 👇-->
+    <input type="number" min='1' max='9' id='b0'>
+    <input type="number" min='1' max='9' id='b1'>
+    <input type="number" min='1' max='9' id='b2'>
+    <input type="number" min='1' max='9' id='b3'>
+    <input type="number" min='1' max='9' id='b4'>
+    <input type="number" min='1' max='9' id='b5'>
+    <input type="number" min='1' max='9' id='b6'>
+    <input type="number" min='1' max='9' id='b7'>
+    <input type="number" min='1' max='9' id='b8'>
+    <!-- row B 👆 -->
+    <br>
+    <!-- row C 👇-->
+    <input type="number" min='1' max='9' id='c0'>
+    <input type="number" min='1' max='9' id='c1'>
+    <input type="number" min='1' max='9' id='c2'>
+    <input type="number" min='1' max='9' id='c3'>
+    <input type="number" min='1' max='9' id='c4'>
+    <input type="number" min='1' max='9' id='c5'>
+    <input type="number" min='1' max='9' id='c6'>
+    <input type="number" min='1' max='9' id='c7'>
+    <input type="number" min='1' max='9' id='c8'>
+    <!-- row C 👆 -->
+    <br>
+    <!-- row D 👇-->
+    <input type="number" min='1' max='9' id='d0'>
+    <input type="number" min='1' max='9' id='d1'>
+    <input type="number" min='1' max='9' id='d2'>
+    <input type="number" min='1' max='9' id='d3'>
+    <input type="number" min='1' max='9' id='d4'>
+    <input type="number" min='1' max='9' id='d5'>
+    <input type="number" min='1' max='9' id='d6'>
+    <input type="number" min='1' max='9' id='d7'>
+    <input type="number" min='1' max='9' id='d8'>
+    <!-- row D 👆 -->
+    <br>
+    <!-- row E 👇-->
+    <input type="number" min='1' max='9' id='e0'>
+    <input type="number" min='1' max='9' id='e1'>
+    <input type="number" min='1' max='9' id='e2'>
+    <input type="number" min='1' max='9' id='e3'>
+    <input type="number" min='1' max='9' id='e4'>
+    <input type="number" min='1' max='9' id='e5'>
+    <input type="number" min='1' max='9' id='e6'>
+    <input type="number" min='1' max='9' id='e7'>
+    <input type="number" min='1' max='9' id='e8'>
+    <!-- row E 👆 -->
+    <br>
+    <!-- row F 👇-->
+    <input type="number" min='1' max='9' id='f0'>
+    <input type="number" min='1' max='9' id='f1'>
+    <input type="number" min='1' max='9' id='f2'>
+    <input type="number" min='1' max='9' id='f3'>
+    <input type="number" min='1' max='9' id='f4'>
+    <input type="number" min='1' max='9' id='f5'>
+    <input type="number" min='1' max='9' id='f6'>
+    <input type="number" min='1' max='9' id='f7'>
+    <input type="number" min='1' max='9' id='f8'>
+    <!-- row F 👆 -->
+    <br>
+    <!-- row G 👇-->
+    <input type="number" min='1' max='9' id='g0'>
+    <input type="number" min='1' max='9' id='g1'>
+    <input type="number" min='1' max='9' id='g2'>
+    <input type="number" min='1' max='9' id='g3'>
+    <input type="number" min='1' max='9' id='g4'>
+    <input type="number" min='1' max='9' id='g5'>
+    <input type="number" min='1' max='9' id='g6'>
+    <input type="number" min='1' max='9' id='g7'>
+    <input type="number" min='1' max='9' id='g8'>
+    <!-- row G 👆 -->
+    <br>
+    <!-- row H 👇-->
+    <input type="number" min='1' max='9' id='h0'>
+    <input type="number" min='1' max='9' id='h1'>
+    <input type="number" min='1' max='9' id='h2'>
+    <input type="number" min='1' max='9' id='h3'>
+    <input type="number" min='1' max='9' id='h4'>
+    <input type="number" min='1' max='9' id='h5'>
+    <input type="number" min='1' max='9' id='h6'>
+    <input type="number" min='1' max='9' id='h7'>
+    <input type="number" min='1' max='9' id='h8'>
+    <!-- row H 👆 -->
+    <br>
+    <!-- row I 👇-->
+    <input type="number" min='1' max='9' id='i0'>
+    <input type="number" min='1' max='9' id='i1'>
+    <input type="number" min='1' max='9' id='i2'>
+    <input type="number" min='1' max='9' id='i3'>
+    <input type="number" min='1' max='9' id='i4'>
+    <input type="number" min='1' max='9' id='i5'>
+    <input type="number" min='1' max='9' id='i6'>
+    <input type="number" min='1' max='9' id='i7'>
+    <input type="number" min='1' max='9' id='i8'>
+    <!-- row I 👆 -->
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+</form>
 </body>
+
 </html>
